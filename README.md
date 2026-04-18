@@ -12,7 +12,7 @@ This repository is one vertex of a three-part research programme. The repositori
 
 **Concrete bridges between the three:**
 
-- The **attention-as-gating** module here provides the neuroscientific grounding for the attention-circuit analyses in [`llm-interpretability-notes`](https://github.com/DimiHepburn/llm-interpretability-notes/blob/main/notes/03_attention_heads.md).
+- The **attention-as-gating** module here provides the neuroscientific grounding for the attention-circuit analyses in [`llm-interpretability-notes`](https://github.com/DimiHepburn/llm-interpretability-notes).
 - The **hippocampal memory** module motivates the context-management design in [`humanising-ai/src/dialogue/context_manager.py`](https://github.com/DimiHepburn/humanising-ai/blob/main/src/dialogue/context_manager.py).
 - The **predictive processing** module gives a principled account of why explainability methods (SHAP, contrastive explanations) matter: they expose the model's internal predictive model to the user.
 
