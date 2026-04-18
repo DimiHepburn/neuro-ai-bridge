@@ -1,3 +1,15 @@
-"""neuro-ai-bridge: Mapping neuroscientific principles onto deep learning."""
-from .hebbian_learning import HebbianNetwork, OjaNetwork, BCMNetwork
-from .stdp import STDPSynapse, STDPNetwork
+"""
+neuro-ai-bridge
+===============
+
+Mapping neuroscientific principles onto deep learning architectures.
+
+Top-level package: re-exports the available sub-packages so that
+user code can do e.g.:
+
+    from src.plasticity import HebbianNetwork, BCMNetwork, STDPNetwork
+"""
+
+from . import plasticity
+
+__all__ = ["plasticity"]
