@@ -1,3 +1,14 @@
+# Core numerics / plotting
 numpy>=1.24.0
-matplotlib>=3.7.0
 scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Deep learning (used by snn/ and predictive_coding/)
+torch>=2.0.0
+
+# Notebook environment (used by notebooks/)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Progress bars in notebook demos
+tqdm>=4.65.0
